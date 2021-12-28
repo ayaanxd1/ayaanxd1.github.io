@@ -1,0 +1,70 @@
+.footer{
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ background-color: rgb(164, 0, 197);
+ color: rgb(173, 0, 196);
+ text-align: center;
+ font-size: 30px;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+.grid-item{
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: left;
+    color: black;
+    text-align: justify;
+}
+#heading{
+    text-transform: capitalize;
+    color: rgb(164, 0, 185);
+    text-shadow: 2px 2px black;
+    font-weight: normal;
+    text-align: center;
+}
+
+.grid-item:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+
+#paradiv{
+    width: 28%;
+    margin-left: 36%;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 1% 1%;
+}
+
+#para{
+    text-align: justify;
+    width: 300px;
+}
+
+
+h3{
+    text-align: center;
+}
+
+figure, figcaption{
+    text-align: center;
+} 
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+td{
+    width: 150px;
+}
